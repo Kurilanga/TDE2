@@ -1,0 +1,35 @@
+Alunos: Victor Hugo Brunetto e Francisco Ochoa Bonato
+
+Configuração Inicial:
+Ao iniciar o programa, você deve inserir o tamanho das pilhas que deseja usar para o jogo.
+
+Escolha da Ordem:
+Você terá a opção de escolher se deseja realizar o jogo em ordem crescente ou decrescente dos discos. 
+
+Menu Principal:
+Após configurar as pilhas e a ordem, o programa entra em um loop de menu principal, onde você pode escolher entre três opções:
+Encerrar (Tecle 0): Finaliza o jogo.
+Movimentar (Tecle 1): Realiza uma jogada, movendo discos entre as pilhas.
+Mostrar solução (Tecle 2): O programa resolve automaticamente o quebra-cabeça e exibe a solução.
+
+Movimentação de Discos (Opção 1):
+Quando você escolhe "Movimentar", você deve especificar de qual pilha deseja mover um disco (pilha de origem) e para qual pilha deseja mover o disco (pilha de destino).
+
+As regras para mover discos são:
+Você só pode mover um disco para uma pilha vazia ou para cima de um disco menor.
+O programa verifica se o movimento é válido e realiza a movimentação.
+Após cada movimento, as pilhas são impressas na tela para mostrar o estado atual do jogo.
+Se todas as pilhas estiverem ordenadas na sequência escolhida (crescente ou decrescente), o jogo é concluído, e você tem a opção de continuar ou encerrar o jogo.
+
+Solução Automática (Opção 2):
+Quando você escolhe "Mostrar solução", o programa resolve automaticamente o jogo.
+Após a resolução, o programa exibe o estado final das pilhas e encerra o jogo.
+
+Ordenação das Pilhas:
+O programa utiliza a função ordenarPilhas para ordenar as pilhas de acordo com a escolha de ordem crescente ou decrescente.
+Esse processo ocorre durante a movimentação dos discos entre as pilhas.
+
+Finalização do Jogo:
+O jogo pode ser finalizado escolhendo "Encerrar" no menu principal ou após a resolução automática.
+O programa exibe o número de jogadas realizadas antes de concluir o jogo.
+
